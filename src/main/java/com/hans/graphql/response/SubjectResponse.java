@@ -17,7 +17,7 @@ public class SubjectResponse {
 
     private Double marksObtained;
 
-    public SubjectResponse(Subject subject){
+    public SubjectResponse (Subject subject) {
         this.id = subject.getId();
         this.subjectName = subject.getSubjectName();
         this.marksObtained = subject.getMarksObtained();

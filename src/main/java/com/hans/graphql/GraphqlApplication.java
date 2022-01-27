@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 //@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 @SpringBootApplication
 @ComponentScan({"com.hans.graphql.query", "com.hans.graphql.service",
-                "com.hans.graphql.resolver"})
+                "com.hans.graphql.resolver", "com.hans.graphql.mutation"})
 @EntityScan("com.hans.graphql.entity")
 @EnableJpaRepositories("com.hans.graphql.repo")
 public class GraphqlApplication {
