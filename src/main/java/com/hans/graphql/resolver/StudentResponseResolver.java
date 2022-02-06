@@ -1,10 +1,10 @@
 package com.hans.graphql.resolver;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
 import com.hans.graphql.entity.Subject;
 import com.hans.graphql.enums.SubjectNameFilter;
 import com.hans.graphql.response.StudentResponse;
 import com.hans.graphql.response.SubjectResponse;
+import graphql.kickstart.tools.GraphQLResolver;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

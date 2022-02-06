@@ -1,11 +1,9 @@
 package com.hans.graphql.mutation;
 
-import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import com.hans.graphql.request.CreateStudentRequest;
 import com.hans.graphql.response.StudentResponse;
 import com.hans.graphql.service.StudentService;
-import graphql.schema.GraphQLFieldDefinition;
-import graphql.servlet.GraphQLMutationProvider;
+import graphql.kickstart.tools.GraphQLMutationResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,11 @@
 package com.hans.graphql.query;
 
-import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+
+
 import com.hans.graphql.request.SampleRequest;
 import com.hans.graphql.response.StudentResponse;
 import com.hans.graphql.service.StudentService;
+import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
